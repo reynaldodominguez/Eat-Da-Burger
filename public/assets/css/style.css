@@ -1,6 +1,6 @@
 img{
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
 }
 
 #burger-title{
@@ -13,7 +13,7 @@ img{
     margin-left: 305px;
 }
 
-.btn-primary{
+#addBurger{
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 316px;
@@ -27,3 +27,12 @@ img{
     margin-left: 305px;
 }
 
+footer{
+    text-align: center;
+    background-color: #e89d30;
+    padding: 20px;
+}
+
+.devoir{
+    margin-left: -200px;
+}
