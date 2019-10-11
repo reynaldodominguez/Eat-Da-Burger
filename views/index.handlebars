@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-6 text-center">
+        <h2>Burgers for Devoir</h1>
+    </div>
+    <div class="col-6 text-center">
+        <h2>Devoired Burgers</h1>
+    </div>
+</div>
+
+<div class="row text-center">
+    <div class="col-6 text-center">
+        <table class="table">
+            {{#each burgers}}
+            <tr>
+                {{#unless devour}}
+                <td>
+                    {{name}}
+                    {{devour}}
+                    <button class="devoir" data-id="{{id}}">Devour</button>
+                </td>
+                {{/unless}}
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+
+    <div class="col-6 text-center">
+        <table class="table">
+            {{#each burgers}}
+            <tr>
+                {{#if devour}}
+                <td>
+                    {{name}}
+                    {{devour}}
+                </td>
+                {{/if}}
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+
+<div class="row text-center">
+    <form>
+        <div class="form-group text-center">
+            <label for="newBurgerInput" id="labelNewBurger">Enter a new Burger</label>
+            <input type="text" class="form-control text-center input-md" id="newBurgerInput" placeholder="Burger Name">
+            <button type="button" class="btn btn-primary" id="addBurger">Add Burger</button>
+        </div>
+    </form>
+    </div>
+
+</div>

@@ -1,0 +1,29 @@
+img{
+    width: 400px;
+    height: 350px;
+}
+
+#burger-title{
+    color: #e89d30;
+    
+}
+
+#newBurgerInput{
+    width: 500px;
+    margin-left: 305px;
+}
+
+.btn-primary{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 316px;
+}
+
+#form-group{
+    width: 100%;
+}
+
+#labelNewBurger{
+    margin-left: 305px;
+}
+
